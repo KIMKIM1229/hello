@@ -1,5 +1,8 @@
 // 聚餐分帳計算器
+console.log("執行開始");
 function diningBillSplitter() {
+    console.log("聚餐分帳計算器啟動");
+}
     // 建立用餐資訊
     const diningInfo = {
         date: "2024-03-21",
@@ -57,8 +60,10 @@ console.log(`\n總金額: $${ totalAmount.toFixed(2) }`);
 // 日期格式化功能
 function formatDate(dateString) {
     const [year, month, day] = dateString.split("-");
-    return`${year}/${month}/${day}`;
+    return `${year}/${month}/${day}`;
 }
 
 // 執行計算器
 diningBillSplitter() ;
+
+console.log("執行結束");
