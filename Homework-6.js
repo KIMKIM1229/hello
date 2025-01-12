@@ -53,7 +53,7 @@ orders.forEach((order) => {
 console.log("\n--- 分帳結果 ---");
 Object.keys(individualCosts).forEach((name) => {
     console.log(`${name} 應付: $${individualCosts[name].toFixed(2)}`);
-
+})
 console.log(`\n總金額: $${ totalAmount.toFixed(2) }`);
 
 
